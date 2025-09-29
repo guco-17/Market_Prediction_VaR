@@ -36,9 +36,9 @@ El objetivo de este repo es:
 - VaR al 95%: Pérdida máxima esperada con 95% de confianza.
 - Intervalo de Confianza: Rango de precios esperados para el horizonte temporal.
 # ❗ Uso.
-1.- Ejecutar los notebooks en un entorno con las dependencias instaladas.
-2.- Los datos se descargan automáticamente para el último año.
-3.- Ajustar los parámetro somo número de simulaciones o días según sea necesario.
+1.- Ejecutar los notebooks en un entorno con las dependencias instaladas.  
+2.- Los datos se descargan automáticamente para el último año.  
+3.- Ajustar los parámetro somo número de simulaciones o días según sea necesario.  
 # 💡 Aplicaciones.
 - Gestión de riesgos financieros.
 - Análisis de inversiones en ETFs.
