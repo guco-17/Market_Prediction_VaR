@@ -96,6 +96,6 @@ The purpose of this repo is:
 - Analysis of investments in ETFs.
 - Modeling uncertainty in financial markets.
 ## 🗒️ Important note.
-This project is for educational and research purposes. The results do not constitute financial advice.
+This project is for educational and research purposes. The results do not constitute financial advice.  
 ##✍️ Author.
 Gustavo Cortés (guco).
