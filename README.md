@@ -47,3 +47,55 @@ El objetivo de este repo es:
 Este proyecto es con fines educativos y de investigación. Los resultados no constituyen asesoramiento financiero.
 ##✍️ Autor.
 Gustavo Cortés (guco).
+
+---
+# Value at Risk & Montecarlo Simulation.
+## Spanish:
+El siguiente contenido está en Inglés, si desea leer el readme en Español, desplace hacia arriba a la sección en Español.
+The following content is in English, if you want to read the readme in Spanish, scroll down to the Spanish section.  
+## 📝 Description.
+This repo contains Jupyter Notebook code in python that implement the Montecarlo simulation to predict the future value of the ETF stock prices such as SPY, GLD and QQQ and calculate the value at risk at 95% confidence.
+## 🎯 Goal.
+The purpose of this repo is:
+- Apply the knowledge learned in the Simulation class.
+- Model the future evolution of ETF prices using historical logarithmic returns.
+- Calculate financial risk metrics, specifically VaR, to assess the maximum expected loss over a 30-day time horizon with 95% confidence.
+## 🚀 key features.
+- Download historic data using yfinance library.
+- Descarga de datos históricos usando la librería yfinance.
+- Calculation of logaritmic returns to model price evolution.
+- Montecarlo simulation with 10,000 possible future price scenarios.
+- Calculation of Value at Risk (VaR) at 95% confidence level.
+- Display of results using histograms and distribution graphs.
+## 💻 Used tech:
+- Python 3.
+- Libraries:
+  - yfinance: Download financial data
+  - Pandas: Manipulation and data analysis.
+  - Numpy: Numeric operations and random number generation.
+  - Matplotlib y seaborn: Data visualization.
+## 🏗️ Project structure.
+- market_prediction_var.ipynb: First file with the montecarlo and var implementation.
+- var_mejorado: improvement of the first file.
+- readme.me
+## 🧠 Simulation and statistic methods.
+- Monte Carlo simulation: Generates multiple price trajectories based on the historical distribution of returns.
+- VaR calculation: Uses percentiles from the simulated distribution to determine the risk of loss.
+- Logarithmic returns: These are used because they are additive over time and symmetric, which facilitates modeling and simulation. They also prevent simulated prices from being negative.
+- Additional metrics: Expected value of the price and confidence intervals.
+## ✅ Results.
+- Expected Value: Projected price of the ETF in 30 days.
+- VaR at 95%: Maximum expected loss with 95% confidence.
+- Confidence Interval: Range of expected prices for the time horizon.
+## ❗ Usage.
+1.- Run the notebooks in an environment with the dependencies installed.  
+2.- Data for the last year is downloaded automatically.  
+3.- Adjust parameters such as the number of simulations or days as necessary.  
+## 💡 Applications.
+- Financial risk management.
+- Analysis of investments in ETFs.
+- Modeling uncertainty in financial markets.
+## 🗒️ Important note.
+This project is for educational and research purposes. The results do not constitute financial advice.
+##✍️ Author.
+Gustavo Cortés (guco).
